@@ -2,22 +2,26 @@
   "name": "redmatter",
   "version": "1.0.0",
   "description": "Experimental idle game in Vue.",
-  "main": "index.js",
+  "author": "Iblobtouch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iblobtouch/RedMatter.git"
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^3.0.0-beta.1",
+    "vuetify": "^2.4.4"
   },
-  "author": "Iblobtouch",
-  "license": "ISC",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-beta.1",
+    "vue-cli-plugin-vue-next": "~0.1.4"
+  },
   "bugs": {
     "url": "https://github.com/iblobtouch/RedMatter/issues"
   },
   "homepage": "https://github.com/iblobtouch/RedMatter#readme",
-  "dependencies": {
-    "vue": "^2.6.12",
-    "vuetify": "^2.4.4"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iblobtouch/RedMatter.git"
   }
 }
