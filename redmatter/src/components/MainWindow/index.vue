@@ -1,17 +1,10 @@
 <template>
-  <Reactor></Reactor>
+  <reactor-view></reactor-view>
 </template>
 
 <script lang="ts">
-// import MainWindow from './scripts';
-import Reactor from '../Reactor/index.vue';
-
-export default {
-  name: 'MainWindow',
-  components: {
-    Reactor
-  },
-};
+import MainWindow from './scripts';
+export default MainWindow
 </script>
 
 <style scoped lang="scss" src="./styles.scss"></style>
