@@ -1,13 +1,11 @@
-import Vue from 'vue'
-import Component from 'vue-class-component'
-import MainWindow from '@/components/MainWindow/index.vue'
+import Vue from "vue";
+import Component from "vue-class-component";
+import MainWindow from "@/components/MainWindow/index.vue";
 
 @Component({
-  name: 'app',
+  name: "app",
   components: {
-    'main-window': MainWindow
+    "main-window": MainWindow
   }
 })
-
-export default class App extends Vue {
-}
+export default class App extends Vue {}

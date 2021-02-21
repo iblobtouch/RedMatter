@@ -5,7 +5,6 @@
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
-    "noImplicitAny": false,
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "skipLibCheck": true,
@@ -13,9 +12,14 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "types": ["vuetify"],
+    "types": [
+      "webpack-env",
+      "vuetify"
+    ],
     "paths": {
-      "@/*": [ "src/*", "../src/*" ]
+      "@/*": [
+        "src/*"
+      ]
     },
     "lib": [
       "esnext",
@@ -29,12 +33,7 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx",
-    "../src/**/*.ts",
-    "../src/**/*.tsx",
-    "../src/**/*.vue",
-    "..tests/**/*.ts",
-    "..tests/**/*.tsx"
+    "tests/**/*.tsx"
   ],
   "exclude": [
     "node_modules"

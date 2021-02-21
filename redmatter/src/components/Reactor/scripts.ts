@@ -1,8 +1,6 @@
-import { Vue, Component} from 'vue-property-decorator'
+import { Vue, Component } from "vue-property-decorator";
 
 @Component({
-  name: 'reactor-view'
+  name: "reactor-view"
 })
-
-export default class Reactor extends Vue {
-}
+export default class Reactor extends Vue {}

@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts">
-import ExampleElement from './scripts';
+import ExampleElement from "./scripts";
 export default ExampleElement;
 </script>
 
