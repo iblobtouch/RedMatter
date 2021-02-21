@@ -6,10 +6,8 @@ import MainWindow from '@/components/MainWindow/index.vue'
   name: 'app',
   components: {
     'main-window': MainWindow
-  },
+  }
 })
 
-class App extends Vue {
+export default class App extends Vue {
 }
-
-export default App
